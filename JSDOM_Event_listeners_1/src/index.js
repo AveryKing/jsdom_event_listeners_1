@@ -1,8 +1,5 @@
 import "./styles.css";
 
-/*
-Add event listeners to the `.expand_button` buttons
-*/
 function expandArticleBody() {
     document.querySelectorAll('.expand_button')
         .forEach(button => {
@@ -20,9 +17,6 @@ function expandArticleBody() {
         })
 }
 
-/*
-Add event listeners to the `.highlightBtn` buttons
-*/
 function highlightArticle() {
     document.querySelectorAll('.highlightBtn')
         .forEach(button => {
